@@ -54,33 +54,40 @@ To identify computer system layers and to explain how each layer can produce for
 
 ### A1. Capture Basic System Specification
 
-![System information](images/fig-01-system-information.png)
+<img width="525" height="250" alt="Fig_01 System information" src="https://github.com/user-attachments/assets/b33029c9-e0e4-4a1b-a2b0-8a585f02a1a6" />
+
 
 *Figure 1: System information.*
 
-![RAM](images/fig-02-ram.png)
+<img width="232" height="73" alt="Fig_02 RAM" src="https://github.com/user-attachments/assets/3c160b3d-fc9a-40bb-a34e-67d3797fe1dd" />
+
 
 *Figure 2: RAM.*
 
-![Secure Boot](images/fig-03-secure-boot.png)
+<img width="272" height="19" alt="Fig_03 Secure boot" src="https://github.com/user-attachments/assets/d9d969bc-fb97-4fe8-9913-cc49f1ea3326" />
+
 
 *Figure 3: Secure Boot.*
 
-![Command Prompt system information](images/fig-04-command-prompt-system-info.png)
+<img width="712" height="434" alt="Fig_04 Command prompt system info" src="https://github.com/user-attachments/assets/4d188659-974c-476e-a859-fb692424f5f0" />
+
 
 *Figure 4: Command Prompt system info.*
 
 ### A2. Capture Storage Information
 
-![Disk](images/fig-05-disk.png)
+<img width="448" height="221" alt="Fig_05 Disk" src="https://github.com/user-attachments/assets/4cab60df-9edd-490e-8251-48432d0b88b8" />
+
 
 *Figure 5: Disk.*
 
-![Partition](images/fig-06-partition.png)
+<img width="647" height="149" alt="Fig_06 Partition" src="https://github.com/user-attachments/assets/6f39663d-f61a-4719-9a58-3f6f0f3a16b5" />
+
 
 *Figure 6: Partition.*
 
-![Volume](images/fig-07-volume.png)
+<img width="593" height="104" alt="Fig_07 Volume" src="https://github.com/user-attachments/assets/431d5692-f349-4957-b2ac-ec4c23054d53" />
+
 
 *Figure 7: Volume.*
 
@@ -102,7 +109,8 @@ To identify computer system layers and to explain how each layer can produce for
 
 ### B1. Observe Running Processes
 
-![Running processes](images/fig-08-running-processes.png)
+<img width="485" height="129" alt="Fig_08 Running processes" src="https://github.com/user-attachments/assets/cb216311-3a1e-4889-bc96-395ea0e9f271" />
+
 
 *Figure 8: Running processes.*
 
@@ -132,7 +140,8 @@ Process information helps investigators identify what was running on a system at
 
 ### C1. To Calculate Disk or Partition Size
 
-![Disk partition size](images/fig-09-disk-partition-size.png)
+<img width="608" height="243" alt="Fig_09 Disk partition size" src="https://github.com/user-attachments/assets/8b881a3e-e478-4790-888f-1d77e0ec097d" />
+
 
 *Figure 9: Disk partition size.*
 
@@ -184,41 +193,49 @@ Partition Size (GB) = Number of Sectors x 512 / 1024 / 1024 / 1024
 
 **Disk layout and visible partitions in Disk Management**
 
-![Visible partition](images/fig-10-visible-partitions.png)
+<img width="559" height="104" alt="Fig_10 Visible partition" src="https://github.com/user-attachments/assets/7715b26b-7fa3-4b3a-8fcd-3b01ad153391" />
+
 
 *Figure 10: Visible partition.*
 
 **In PowerShell**
 
-![Disk](images/fig-11-powershell-disk.png)
+<img width="448" height="221" alt="Fig_11 Disk" src="https://github.com/user-attachments/assets/7ce3f3dd-cf82-4ec3-8a35-ee130cbd5b29" />
+
 
 *Figure 11: Disk.*
 
-![Partition](images/fig-12-powershell-partition.png)
+<img width="647" height="149" alt="Fig_12 Partition" src="https://github.com/user-attachments/assets/af4424b0-d46d-43cf-8bb4-d8816225ecdd" />
+
 
 *Figure 12: Partition.*
 
-![Volume](images/fig-13-powershell-volume.png)
+<img width="593" height="104" alt="Fig_13 Volume" src="https://github.com/user-attachments/assets/0da7086e-da7f-4051-b6d1-acd2b022c8b8" />
+
 
 *Figure 13: Volume.*
 
 **DiskPart in Command Prompt**
 
-![DiskPart](images/fig-14-diskpart.png)
+<img width="353" height="385" alt="Fig_14 Diskpart" src="https://github.com/user-attachments/assets/7a254f15-276b-439b-9729-37cb3f071341" />
+
 
 *Figure 14: DiskPart.*
 
 ### D2. Linux/Kali Method - Read-Only Inspection
 
-![Kali disk information](images/fig-15-kali-disk-info.png)
+<img width="451" height="263" alt="Fig_15 kali disk info" src="https://github.com/user-attachments/assets/776f316a-b4c2-4e05-a6b8-929c2f895330" />
+
 
 *Figure 15: Kali disk info.*
 
-![Kali partition](images/fig-16-kali-partition.png)
+<img width="623" height="263" alt="Fig_16 Kali parted" src="https://github.com/user-attachments/assets/2f1cc354-00fe-42ce-b2dd-3caf2038066c" />
+
 
 *Figure 16: Kali partition.*
 
-![Kali mounted files](images/fig-17-kali-mounted-files.png)
+<img width="533" height="155" alt="Fig_17 Kali mounted files" src="https://github.com/user-attachments/assets/ef208b80-df35-4a03-9e5b-89c3055db5c9" />
+
 
 *Figure 17: Kali mounted files.*
 
@@ -319,11 +336,13 @@ Partition Size (GB) = 32,768 x 512 / 1024 / 1024 / 1024
 
 There is no significant difference between the calculated size and the operating system reported size. Minor differences occur because Windows displays partition sizes in MB, while the calculation converts the values to GB and may involve rounding.
 
-![Partition](images/fig-18-partition.png)
+<img width="647" height="149" alt="Fig_18 Partition" src="https://github.com/user-attachments/assets/80187a1c-7d1d-4765-8472-7969a51e7903" />
+
 
 *Figure 18: Partition.*
 
-![Volume](images/fig-19-volume.png)
+<img width="593" height="104" alt="Fig_19 Volume" src="https://github.com/user-attachments/assets/cc83e7d9-0a13-4499-a6a9-51fcf9ca7740" />
+
 
 *Figure 19: Volume.*
 
