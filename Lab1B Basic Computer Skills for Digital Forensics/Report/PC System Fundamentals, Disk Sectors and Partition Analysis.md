@@ -5,16 +5,16 @@
 ![Focus](https://img.shields.io/badge/Focus-Digital%20Forensics-2E8B57?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
 
-## Assignment Information
+
 
 | Field | Details |
 |---|---|
-| **Student Name** | |
-| **Registration Number** | |
+| **Student Name** |Ellie Ng'oma |
+| **Registration Number** |C11/26/PCDFIR/17012 |
 | **Course Code** | CIP-B101 |
 | **Lab Title** | PC System Fundamentals, Disk Sectors and Partition Analysis |
 | **Date** | 07 November 2026 |
-| **Instructor Name** | |
+| **Instructor Name** |Basiru Aliyu |
 
 ## Table of Contents
 
