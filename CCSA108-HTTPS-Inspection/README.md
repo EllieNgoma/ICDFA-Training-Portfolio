@@ -14,10 +14,16 @@ This report examines the configuration and operation of HTTPS Inspection in Chec
 
 ### Task 1: Plan the deployment
 
+<img width="574" height="502" alt="Fig_01 Gateway version" src="https://github.com/user-attachments/assets/5822f6b8-e8fd-4577-b62e-3ee52f0e1a62" />
+
 Fig_01 Gateway version
+
+###
+<img width="577" height="464" alt="Fig_02 https Inspection requirements" src="https://github.com/user-attachments/assets/a3fb710b-230b-44d1-b5d8-b5d9d114ce0e" />
 
 Fig_02 https Inspection requirements
 
+###
 **Gateway Version:** R82
 
 **Two HTTPS Inspection Requirements/Considerations:**
@@ -32,13 +38,24 @@ ii. The outbound CA certificate must be deployed to client devices before enabli
 
 ### Task 2: Enable HTTPS Inspection
 
+<img width="578" height="503" alt="Fig_03 Outbound CA Certificate" src="https://github.com/user-attachments/assets/44f66869-d41d-48ba-96b7-ca1723467c75" />
+
 Fig_03 Outbound CA Certificate
+
+
+<img width="605" height="68" alt="Fig_04 Certificate in the test host" src="https://github.com/user-attachments/assets/07114167-2e9c-48d1-b1f6-fa23c7ecf704" />
 
 Fig_04 Certificate in the test host
 
+
 ### Task 3: Create the HTTPS Inspection policy
 
+<img width="529" height="79" alt="Fig_05 1 https Inspection policy" src="https://github.com/user-attachments/assets/1a18dff1-fbda-40fd-a93a-a00daac9d051" />
+
 Fig_05.1 https Inspection policy
+
+
+<img width="211" height="75" alt="Fig_05 2 https Inspection policy" src="https://github.com/user-attachments/assets/fbd596b6-33d6-41a2-88c5-015994ee1735" />
 
 Fig_05.2 https Inspection policy
 
@@ -54,9 +71,17 @@ Changes were published successfully. An attempt was made to install the Standard
 
 ### Task 5: Review the global settings
 
+<img width="401" height="244" alt="Fig_06 Fail mode" src="https://github.com/user-attachments/assets/9d4e0ec4-6ba7-4e0a-8a3a-79932970b5b7"/>
+
 Fig_06 Fail mode
 
-Fig_07 Categorization mode
+###
+<img width="412" height="217" alt="Fig_07 Categorazation mode" src="https://github.com/user-attachments/assets/9833d17c-f4c6-4901-99d3-abe51a093956" />
+
+Fig_07 Categorazation mode
+
+###
+<img width="391" height="219" alt="Fig_08 Server validations" src="https://github.com/user-attachments/assets/cf50f885-8e3f-4c12-8b87-f55273a19042" />
 
 Fig_08 Server validations
 
